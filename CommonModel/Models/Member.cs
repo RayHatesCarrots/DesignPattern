@@ -1,6 +1,6 @@
-﻿using ObserverPattern.Enums;
+﻿using CommonModel.Enums;
 
-namespace ObserverPattern.Models
+namespace CommonModel.Models
 {
     public class Member
     {
@@ -12,11 +12,11 @@ namespace ObserverPattern.Models
 
         public MemberStatus Status { get; set; }
 
-        public Member(string memberCode, string email)
+        public Member(string memberCode, string email, decimal amount = 0)
         {
             MemberCode = memberCode;
             Email = email;
-            Balance = 0;
+            Balance = amount;
             Status = MemberStatus.Active;
         }
     }

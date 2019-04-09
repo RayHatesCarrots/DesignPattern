@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
@@ -8,6 +8,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{85EA245B-975D-452B-B174-7747E41D4093}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{2757BA29-1228-4BAA-9E53-2A6A227D51BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{329C3DB1-4408-4AAB-BCC7-DAC3323F24E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonModel", "CommonModel\CommonModel.csproj", "{08A3E9FE-394A-4925-9F56-FAD2258E35F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +31,16 @@ Global
 		{2757BA29-1228-4BAA-9E53-2A6A227D51BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2757BA29-1228-4BAA-9E53-2A6A227D51BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2757BA29-1228-4BAA-9E53-2A6A227D51BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A3E9FE-394A-4925-9F56-FAD2258E35F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A3E9FE-394A-4925-9F56-FAD2258E35F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A3E9FE-394A-4925-9F56-FAD2258E35F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A3E9FE-394A-4925-9F56-FAD2258E35F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08A3E9FE-394A-4925-9F56-FAD2258E35F4} = {329C3DB1-4408-4AAB-BCC7-DAC3323F24E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {754511DA-FCF3-40B6-938E-4A7E6F87935C}

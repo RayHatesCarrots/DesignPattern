@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Data.Common;
 
 namespace FactoryMethodPattern
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("=========== Factory Method Pattern ===========");
 

@@ -1,6 +1,6 @@
-﻿using System;
+﻿using CommonModel.Models;
 using ObserverPattern.Interfaces;
-using ObserverPattern.Models;
+using System;
 
 namespace ObserverPattern.Services
 {

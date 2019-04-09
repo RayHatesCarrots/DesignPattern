@@ -1,5 +1,5 @@
-﻿using ObserverPattern.Interfaces;
-using ObserverPattern.Models;
+﻿using CommonModel.Models;
+using ObserverPattern.Interfaces;
 using System;
 
 namespace ObserverPattern.Services

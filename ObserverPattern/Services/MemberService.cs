@@ -1,6 +1,6 @@
-﻿using ObserverPattern.Interfaces;
+﻿using CommonModel.Models;
+using ObserverPattern.Interfaces;
 using System.Collections.Generic;
-using ObserverPattern.Models;
 
 namespace ObserverPattern.Services
 {

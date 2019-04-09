@@ -1,5 +1,5 @@
 ﻿using BuilderPattern.Builders;
-using BuilderPattern.Models;
+using CommonModel.Models;
 using System;
 using System.Net;
 
@@ -32,7 +32,7 @@ namespace BuilderPattern
             var rspBuilder3 =
                 new ResponseMessageBuilder<Member>()
                     .SetHttpStatusCode(HttpStatusCode.OK)
-                    .SetData(new Member("member", 50m));
+                    .SetData(new Member("memberA", "memberA@email.com", 50m));
 
             Console.WriteLine($"ResponseMessage3 JsonResult: {rspBuilder3.BuildJsonResult()}");
             Console.WriteLine($"ResponseMessage3 XmlResult: {rspBuilder3.BuildXmlResult()}");

@@ -1,8 +1,8 @@
-﻿using System;
+﻿using MongoDB.Driver;
+using MySql.Data.MySqlClient;
+using System;
 using System.Data;
 using System.Data.SqlClient;
-using MongoDB.Driver;
-using MySql.Data.MySqlClient;
 
 namespace FactoryMethodPattern
 {

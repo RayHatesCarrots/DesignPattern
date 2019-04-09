@@ -1,12 +1,12 @@
-﻿using System;
-using ObserverPattern.Models;
+﻿using CommonModel.Models;
 using ObserverPattern.Services;
+using System;
 
 namespace ObserverPattern
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("=========== Observer Pattern ===========");
 

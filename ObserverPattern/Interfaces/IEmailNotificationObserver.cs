@@ -1,4 +1,4 @@
-﻿using ObserverPattern.Models;
+﻿using CommonModel.Models;
 
 namespace ObserverPattern.Interfaces
 {
