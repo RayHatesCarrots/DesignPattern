@@ -23,14 +23,14 @@ namespace ChainOfResponsibilityPattern.Services
                 return true;
             }
 
-            Console.WriteLine($"{member.MemberCode} cannot deposit");
+            Console.WriteLine($"{member.MemberCode} increase balance fail");
 
             return false;
         }
 
         public bool DecreaseBalance(Member member, decimal amount)
         {
-            if (_iMemberChurnService.CheckChurnValue(member, amount))
+            if (member.Balance > amount)
             {
                 member.Balance -= amount;
                 Console.WriteLine($"{member.MemberCode}'s current balance: {member.Balance}");
@@ -38,7 +38,7 @@ namespace ChainOfResponsibilityPattern.Services
                 return true;
             }
 
-            Console.WriteLine($"{member.MemberCode} cannot withdraw");
+            Console.WriteLine($"{member.MemberCode} decrease balance fail");
 
             return false;
         }
