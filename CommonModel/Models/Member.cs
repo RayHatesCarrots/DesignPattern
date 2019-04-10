@@ -10,13 +10,16 @@ namespace CommonModel.Models
 
         public decimal Balance { get; set; }
 
+        public decimal ChurnValue { get; set; }
+
         public MemberStatus Status { get; set; }
 
-        public Member(string memberCode, string email, decimal amount = 0)
+        public Member(string memberCode, string email, decimal balance = 0, decimal churnValue = 0)
         {
             MemberCode = memberCode;
             Email = email;
-            Balance = amount;
+            Balance = balance;
+            ChurnValue = churnValue;
             Status = MemberStatus.Active;
         }
     }
